@@ -1,0 +1,230 @@
+.heady{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: fixed;
+  text-decoration: none;
+  z-index: 10;
+  padding-top: 10px;
+}
+
+h2{
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  letter-spacing: 20px;
+}
+
+/* HEADER */
+
+body{
+  background-image: url("https://icecube-us-841.icedrive.io/thumbnail?p=MKPPZ%2BO0JFuGKsdygrBvBQBQdOfcrn%2FA%2Fyh5MbMSU3gWyE21pwylxllFJs7wHr3ZFq0JI74tcshLpFounvWCKquHYRzWjuDYvUNmYEEJ%2BJrqFKOCR1t0GMkFeRxB%2BN3M&w=1280&h=1280&m=cropped");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 90%;
+  background-color: black;
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+  opacity: 0;
+  background-color: black;
+  background-size: cover;
+}
+
+
+.main{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.on-image-container{
+  margin-top: 38px;
+  width: 100%;
+  height: 50%;
+}
+
+.slideshow{
+  width: 600px;
+  height: 450px;
+  position: fixed;
+  background-color: black;
+  left: 27.5%;
+  top: 20%;
+}
+
+#gridimg{
+  position: fixed;
+  width: 600px;
+  height: 450px;
+  z-index: 2;
+}
+
+.slides-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.slides{
+  position: absolute;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  animation: animate 10s infinite;
+}
+
+.slide{
+  width: 20%;
+  height: 100%;
+  float: left;
+  filter: brightness(75%);
+}
+
+.img1{
+  background: url(https://icecube-us-841.icedrive.io/thumbnail?p=kP7kOq%2BeSdFm0JynQbXhQjmJ5iRFC1xyt59tAaFZ8FGRao3A804CgsfDv%2BZHrCzPFe6KYrv4JWY48iRaXrf9LK1hyXnqtqmaonSEywtHwd5R837xu4PLV0bQ90KBZO4e&w=1280&h=1280&m=cropped);
+  background-size: cover;
+  background-position: center;
+}
+
+.img2{
+  background: url(https://icecube-us-841.icedrive.io/thumbnail?p=sO70ldVGH%2FK1FhNeMkDQyh4XD4h697rjdD8ca7NJA%2Fa24ZLjvYje1SU%2FyUjOva1XpMEyN6RfomLhw2adpPOsC5k2lgHRz5QX8fBFuZ7vmmBOhkMgZQQ8JKiWz%2BRN3OPN&w=1280&h=1280&m=cropped);
+  background-size: cover;
+  background-position: center;
+}
+
+.img3{
+  background: url(https://icecube-us-841.icedrive.io/thumbnail?p=4oBXx%2Bf7wQfabc3vcNHw4lUUBd6U0V8I2sENpHGaQolbX5vNNFlmOzCqhVsQPedxbETajCrkr4afOocBuQAWK1a%2FkLcCIvEJk9Wrp1h4C4a0FdXwiDWy%2FNJNhbL295Gi&w=1280&h=1280&m=cropped);
+  background-size: cover;
+  background-position: center;
+}
+
+.img4{
+  background: url(https://icecube-us-841.icedrive.io/thumbnail?p=jZHWutw5s%2FlaC7sl4k1UKtlKmo2PbR7o2oHtiGwFzQPYO3TCvxbyx231SgolVSr10E0s2TSMVRL21cReU6qFOdCzhrRQ5%2BizkGOtZh8SoyHK8%2BTe8UvfDosALffKEHxx&w=1280&h=1280&m=cropped);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+@keyframes animate{
+  0% {left: 0%;}
+  20% {left: 0%;}
+  25% {left: -100%;}
+  45% {left: -100%;}
+  50% {left: -200%;}
+  70% {left: -200%;}
+  75% {left: -300%;}
+  95% {left: -300%;}
+  100% {left: -400%;}
+}
+
+
+.button{
+  color: #c2c369;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Work Sans";
+  letter-spacing: 4px;
+  height: 50px;
+  width: 20%;
+  text-align: center;
+  position: fixed;
+  border-style: none;
+  outline-color: #c2c369;
+  outline-width: 3px;
+  outline-style: solid;
+}
+
+.button:hover{
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.button1{
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  position: fixed;
+  z-index: 1;
+}
+
+.button2{
+  position: absolute;
+  top: 90%;
+  right: 20%;
+  position: fixed;
+  z-index: 1;
+}
+
+.bottom-container{
+  position: relative;
+  margin-top: 45%;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  z-index: 5;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.columns-container{
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.ccs{
+  height: auto;
+  width: 33.33%;
+  text-align: center;
+}
+
+#videotext{
+  color: #c2c369;
+  font-family: Work Sans;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#phototext{
+  color: #c2c369;
+  font-family: Work Sans;
+}
+
+#photoshoptext{
+  color: #c2c369;
+  font-family: Work Sans;
+}
+
+.bbutton{
+  position: relative;
+  color: #c2c369;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Work Sans";
+  letter-spacing: 4px;
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  border-style: none;
+  outline-color: #c2c369;
+  outline-width: 3px;
+  outline-style: solid;
+}
+
+.bbutton:hover{
+  background-color: rgba(0, 0, 0, 1);
+  outline-color: #86874a;
+  color: #86874a;
+}
